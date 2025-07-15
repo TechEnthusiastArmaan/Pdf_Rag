@@ -1,0 +1,29 @@
+# Core dependencies
+streamlit>=1.28.0
+python-dotenv>=1.0.0
+PyPDF2>=3.0.1
+langchain>=0.0.350
+requests>=2.31.0
+
+# Vector store and embeddings - using more compatible versions
+faiss-cpu>=1.7.4
+sentence-transformers>=2.2.0
+transformers>=4.21.0
+torch>=1.13.0
+numpy>=1.21.0
+
+# Alternative embedding option (lightweight)
+# sklearn
+# openai  # If you want to use OpenAI embeddings instead
+
+# Text processing
+tiktoken>=0.4.0
+
+# Optional: For GPU support (uncomment if needed)
+# faiss-gpu>=1.7.4
+# torch>=2.0.0+cu118
+
+# Development dependencies (optional)
+# pytest>=7.4.0
+# black>=23.0.0
+# flake8>=6.0.0
